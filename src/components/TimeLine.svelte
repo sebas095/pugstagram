@@ -14,7 +14,7 @@
 <div class="TimeLine">
   <div class="TimeLine-container">
     {#each posts as post}
-    <Card {...post} />
+      <Card {...post} />
     {:else}
       <Loader />
     {/each}
